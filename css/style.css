@@ -1,0 +1,360 @@
+/* ここから下に記載していく */
+
+a {
+    text-decoration: none;
+    color: #222222
+}
+
+html {scroll-behavior: smooth;}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border: 2px solid #cacaca;
+    /* border-width: 5px; */
+    /* border-color: #cacaca;   */
+}
+
+.headerleft{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerright{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.nav_item {
+    /* margin: 50px; */
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.header_image {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainvisual{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/mainbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainbg_title{
+    margin-bottom: 30px;   
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:40px;
+    
+}
+
+.mainbg_subtitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size:24px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #222222;
+}
+
+.SectionTitle{
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.JP_Title{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.about_text{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.about_text_40{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.aboutbg{
+    margin-top: 40px;
+    display: flex;
+}
+
+.SectionTitleBlack{
+    font-size: 24px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.COURSE {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.COURSEWRAP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CourseIMG{
+    width: 50%;
+    max-width: 600px;
+}
+
+.CourceTextRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    background-color: #fafafa;
+    white-space: nowrap;
+}
+
+.CourceTextLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 50px;
+    background-color: #fafafa;
+    white-space: nowrap;
+}
+
+.CourseBoxRight{
+    width: 430px;
+    /* margin-top: 120px; */
+    /* margin-bottom: 120px; */
+    margin-left: 50px;
+}
+
+.CourseBoxLeft{
+    width: 430px;;
+    /* margin-top: 120px; */
+    /* margin-bottom: 120px; */
+    margin-left: 50px;
+}
+
+.NEWSAREA {
+    display: flex;
+    gap: 30px;
+    /* margin: 30px; */
+}
+Github
+.NEWSITEM{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.NEWSITEM:hover{
+    opacity: 0.6;
+}
+
+/* .NEWSITEM.bg {
+    position: relative;
+    overflow: hidden;
+} */
+
+
+.NEWSTITLE {
+    margin-top: 30px;
+    margin-bottom: 24px;
+    font-size: 14px;
+
+}
+
+.NEWSTEXT {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.NEWSBUTTON {
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+}
+
+.Button {
+    border: 2px solid #ffd61a;
+    background-color: #ffd61a;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+.Button:hover {
+    background: #fafafa;
+    color: #ffd61a;
+}
+
+.ACCESS {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 60px; */
+    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fafafa;
+    color: #222222;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+}
+.MAP { 
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.ACCESSTEXT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; 
+}
+
+.ACCESSBOX {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.ACCESSLEFT {
+    width: 150px;
+}
+
+.ACCESSRIGHT {
+    width: 400px;
+}
+
+.formarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 642px;
+    border-top: solid 1px #bfbfbf;
+    border-bottom: solid 1px #bfbfbf;
+    /* font-size: 13px; */
+}
+
+.formrow {
+    width: 640px;
+    /* width: 100%; */
+    display: flex;
+    border-top: solid 1px #bfbfbf;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+.formtitle{
+    /* max-width: 240px; */
+    width: 240px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    /* padding-right: 64px; */
+    border-right: solid 2px #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+.formlabel{
+    width: 160px;
+    font-size: 14px;
+    /* width: 240px;
+    padding-left: 16px;
+    padding-right: 64px;
+    border-right: solid 2px #bfbfbf; */
+    
+}
+
+.formparts{
+    width: 400px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.formtext{
+    width: 328px;
+    height: 36px;
+    border: solid 1px #bfbfbf;
+}
+
+.checkbox-group{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.checkboxrow{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.longtext{
+    width: 328px;
+    height: 120px;
+    border: solid 1px #bfbfbf;
+}
+
+.submitbutton {
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.footer {
+    background-color: #707070;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
