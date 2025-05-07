@@ -42,6 +42,11 @@ html {scroll-behavior: smooth;}
     text-decoration: none;
 }
 
+.nav_item:hover{
+    /* color: #25ceff; */
+    text-decoration: underline;
+}
+
 .header_image {
     display: flex;
     align-items: center;
@@ -64,6 +69,7 @@ html {scroll-behavior: smooth;}
     justify-content: center;
     color: white;
     font-size:40px;
+    text-shadow: 1px 2px 3px #808080;
     
 }
 
@@ -72,9 +78,10 @@ html {scroll-behavior: smooth;}
     justify-content: center;
     color: white;
     font-size:24px;
+    text-shadow: 1px 2px 3px #808080;
 }
 
-.about{
+.Contents{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,27 +91,36 @@ html {scroll-behavior: smooth;}
     color: #222222;
 }
 
-.SectionTitle{
+.YellowTitle{
     font-size: 24px;
     color: #ffd61a;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.JP_Title{
+.Sub_Title{
     font-size: 18px;
     margin-bottom: 60px;
 }
 
-.about_text{
-    font-size: 16px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-}
-
-.about_text_40{
+.text_paragraph{
     font-size: 16px;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
+
+/*.discription_text{ */
+    /* font-size: 16px; */
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 10px; */
+/* }  */
+
+/* .about_text_40{
+    font-size: 16px;
+    margin-bottom: 40px;
+} */
 
 .aboutbg{
     margin-top: 40px;
@@ -126,11 +142,11 @@ html {scroll-behavior: smooth;}
     max-width: 1200px;
 }
 
-.COURSEWRAP{
+/* .COURSEWRAP{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .CourseIMG{
     width: 50%;
@@ -139,6 +155,7 @@ html {scroll-behavior: smooth;}
 
 .CourceTextRight{
     width: 50%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,6 +166,7 @@ html {scroll-behavior: smooth;}
 
 .CourceTextLeft{
     width: 50%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,14 +180,24 @@ html {scroll-behavior: smooth;}
     width: 430px;
     /* margin-top: 120px; */
     /* margin-bottom: 120px; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .CourseBoxLeft{
     width: 430px;;
     /* margin-top: 120px; */
     /* margin-bottom: 120px; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
+}
+
+.TextParagraphLeft{
+    text-align: start;
+    font-size: 16px;
+    /* margin-bottom: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
 }
 
 .NEWSAREA {
@@ -177,7 +205,7 @@ html {scroll-behavior: smooth;}
     gap: 30px;
     /* margin: 30px; */
 }
-
+Github
 .NEWSITEM{
     width: 300px;
     display: flex;
@@ -186,6 +214,7 @@ html {scroll-behavior: smooth;}
 }
 
 .NEWSITEM:hover{
+    cursor: pointer;
     opacity: 0.6;
 }
 
@@ -203,8 +232,12 @@ html {scroll-behavior: smooth;}
 }
 
 .NEWSTEXT {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     font-size: 14px;
     padding-bottom: 10px;
+    gap: 10px;
 }
 
 .NEWSBUTTON {
@@ -221,14 +254,16 @@ html {scroll-behavior: smooth;}
     color: white;
     align-content: center;
     text-align: center;
+    cursor: pointer;
 }
 .Button:hover {
+    cursor: pointer;
     background: #fafafa;
     color: #ffd61a;
 }
 
 .ACCESS {
-
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
