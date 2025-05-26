@@ -5,7 +5,7 @@
 - チーズ職人に、おれはなる！！！という熱い志を持つ人が集まる学校のWebサイト
 
 ## ③アプリのデプロイURL
-デプロイしている場合はURLを記入（任意）
+https://urahide31.github.io/kadai00_cheese/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - なし
